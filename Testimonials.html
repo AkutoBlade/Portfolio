@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Carousel</title>
+</head>
+<body style=" background:url(image/Purple.jpg)">    
+  <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent" style="border-bottom: 2px solid black; box-shadow: 0vw 1vw 1vw rgb(189, 27, 189); padding-bottom: 2%; position: sticky;">
+  <div class="container-fluid" style="">
+    <a class="navbar-brand" href="#"><img class="rounded-circle" src="/image/DigitalPortfolio.jpg" alt="" style=" width: 150px; box-shadow: 0vw 1vw 4vw white;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-around" style="margin-right: 28%; text-shadow: 0vw 1vw 4vw white;" id="navbarNavAltMarkup">
+      <div class="navbar-nav lead fs-3">
+        <a class="nav-link active text-light" style="padding:10% ;" href="index.html">About</a>
+        <a class="nav-link text-light" style=" padding:10%  ;" href="skills.html" target="blank">Skills</a>
+        <a class="nav-link text-light" style=" padding:10%  ;" href="Education.html">Education</a>
+        <a class="nav-link text-light" style=" padding:10%  ;" href="Testimonials.html">Testimonials</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<section id="testemonials" class="bg-dark vh-100">
+  <div class="container text-white text-center p-5">
+    <h2 class="py-4 display-2" style="margin-bottom: 4%;">Testemonials</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active circle"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="circle"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="circle"></button>
+  </div>
+  <div class="carousel-inner pb-5">
+    <div class="carousel-item active">
+      <img src="https://picsum.photos/300" alt="" class="rounded-circle image mb-4">
+      <h5 class="py-3">Jared Isaacs</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat minima quos, dignissimos ex animi aspernatur. Ex quo saepe culpa porro.</p>
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/300" alt="" class="rounded-circle image mb-4">
+      <h5 class="py-3">Yaseen Jattiem</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat minima quos, dignissimos ex animi aspernatur. Ex quo saepe culpa porro.</p>
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/300" alt="" class="rounded-circle image mb-4">
+      <h5 class="py-3">Clayton Adonis</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat minima quos, dignissimos ex animi aspernatur. Ex quo saepe culpa porro.</p>
+    </div>
+  </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>       
+</body>
+</html>

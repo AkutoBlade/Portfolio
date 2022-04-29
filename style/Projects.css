@@ -1,0 +1,13 @@
+.projects-container{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.projects-container img{
+    max-height: 400px;
+    max-width: 100%;
+    flex-grow: 1;
+    object-fit:cover;
+}

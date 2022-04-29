@@ -1,3 +1,14 @@
-*{
-    background-color:rgb(75, 24, 75)
+#testemonials{
+
+    background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(228, 59, 59, 0.349),
+      rgba(223, 68, 250, 0.353)
+    ),
+    /* bottom, image */
+    url(../image/Purple.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
