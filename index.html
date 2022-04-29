@@ -7,19 +7,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>BootStrap Portfolio</title>
 </head>
-<body style=" background:url(image/Purple.jpg)">
+<body>
+      <main  style=" background:url(image/Purple.jpg)"> 
+        <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent" style="border-bottom: 2px solid black; box-shadow: 0vw 1vw 1vw rgb(189, 27, 189); padding-bottom: 2%; position: sticky;">
+            <div class="container-fluid" style="">
+              <a class="navbar-brand" href="#"><img class="rounded-circle" src="/image/DigitalPortfolio.jpg" alt="" style=" width: 150px; box-shadow: 0vw 1vw 4vw white;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-around" style="margin-right: 20%; text-shadow: 0vw 1vw 4vw white;" id="navbarNavAltMarkup">
+                <div class="navbar-nav lead fs-3">
+                  <a class="nav-link active text-light" style="padding:10% ;" href="index.html">About</a>
+                  <a class="nav-link text-light" style=" padding:10%  ;" href="skills.html" target="blank">Skills</a>
+                  <a class="nav-link text-light" style=" padding:10%  ;" href="Education.html">Eductaion</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     <div class="text-xxl-center text-white my-xl-4">
      <h1 class="display-2">About</h1>
     </div>
   <div class=" container">
     <div class="row">
-        <div class=" img-fluid col-6">
-            <img style="margin-left: 10%;margin-top: 3%; height: 550px; width: 400px;" class="rounded text-end"src="image/Jared (3).JPG" alt="" style="object-fit: cover;">
+        <div class=" img-fluid col-md-6">
+            <img style="margin-left: 10%;margin-top: 3%; height: 550px; width: 400px; box-shadow: 0vw 1vw 4vw white;" class="rounded text-end"src="image/Jared (3).JPG" alt="" style="object-fit: cover;">
         </div>
-        <div class="col-6 text-start text-white">
+        <div class="col-md-6 text-start text-white">
         <h1 class="display-4 text-start text-white">Hi there! I'm Jared Isaacs</h1>
-        <h5 class="text-primary display-6" >Web Developer</h5>
-         <p style="box-shadow: 0 1vw 4vw rgb(255, 255, 255);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quas aut pariatur sit modi rerum quam voluptas repudiandae eveniet natus esse consectetur nisi hic dolorem sed sequi vero, necessitatibus quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe possimus cupiditate, perspiciatis voluptas distinctio maiores nesciunt aut molestiae est nobis quis laboriosam! Quibusdam quis voluptates vitae sequi consequuntur. Distinctio, impedit?</p>
+        <h5 class="display-6" style="color:rgb(189, 27, 189)" >Web Developer</h5>
+         <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quas aut pariatur sit modi rerum quam voluptas repudiandae eveniet natus esse consectetur nisi hic dolorem sed sequi vero, necessitatibus quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe possimus cupiditate, perspiciatis voluptas distinctio maiores nesciunt aut molestiae est nobis quis laboriosam! Quibusdam quis voluptates vitae sequi consequuntur. Distinctio, impedit?</p>
          <div class=" text-start ms-0">
             <div class="row">
                 <div class="col-5">Birthday</div>
@@ -51,13 +67,11 @@
                 <div class="col my-5"><button class="rounded-pill  w-100 btn-outline-dark btn text-white">   Github   </button></div>
             </div>
             <div class="row text-start">
-                <a  style="text-decoration: none;"class=" text-light text-center fs-5" href="http://127.0.0.1:5500/skills.html" target="blank">>Click here to go to skills</a>
-            </div>
         </div>
         </div>
     </div> 
   </div>  
-
+</main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
 </body>
 </html>
